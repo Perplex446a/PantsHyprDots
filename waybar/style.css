@@ -1,0 +1,51 @@
+#mode, #clock, #battery {
+    padding: 0 10px;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock {
+    background-color: #c902cc;
+}
+
+#battery {
+    background-color: #940ecf;
+}
+
+#battery.charging {
+    background-color: #d410e6;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning:not(.charging) {
+    background: #d410e6;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Base state: Collapse the text label to make it invisible */
+#mpris label {
+    font-size: 0px;
+    transition: all 0.2s ease-in-out; /* Smooth slide out */
+}
+
+/* Hover state: Bring the font back to normal size */
+#mpris:hover label {
+    font-size: 13px; /* Match this to your main bar font size */
+}
+
+#custom-empty:hover label {
+  font-size: 10px;
+}
