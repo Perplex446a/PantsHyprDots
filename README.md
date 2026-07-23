@@ -7,11 +7,7 @@ If you don't know how to get this on your system, do these simple steps;
 
 1. Make sure you have the git package installed
 
-debian - sudo apt install git
-fedora - sudo dnf install git
-arch - sudo pacman -S git
-
-2. cd into the ~ folder
+2. cd into the ~ folder: cd ~
 
 3. make sure you have these installed; kitty, waybar, hyprlock, hyprland, hyprpolkitagent, hyprpaper, fireshot, firefox, chromium, fuzzel, dolphin, xdg-desktop-portal-hyprland
 
@@ -22,4 +18,4 @@ git clone https://github.com/Perplex446a/PantsHyprDots/
 chmod +x install.sh
 
 6. run the bash script
-install.sh
+./install.sh
