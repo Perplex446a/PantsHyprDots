@@ -3,19 +3,19 @@ read -rp "Continue? [y/n]" answer
 echo "replacing hypr directory"
 sleep 1
 rm -rf ~/.config/hypr
-mv ~/hypr ~/.config
+mv ~/PantsHyprDotfiles/hypr ~/.config
 echo "Replacing Waybar directory"
 sleep 1
 rm -rf ~/.config/waybar
-mv ~/waybar ~/.config
+mv ~/PantsHyprDotfiles/waybar ~/.config
 echo "Replacing kitty directory"
 sleep 1
 rm -rf ~/.config/kitty
-mv ~/kitty ~/.config
+mv ~/PantsHyprDotfiles/kitty ~/.config
 echo "Replacing Fuzzel Directory"
 sleep 1
 rm -rf ~/.config/fuzzel
-mv ~/fuzzel ~/.config
+mv ~/PantsHyprDotfiles/fuzzel ~/.config
 sleep 1
 echo ""
 echo "Done!"
