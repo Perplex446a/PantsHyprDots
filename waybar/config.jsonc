@@ -14,10 +14,10 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}",
+        "format-alt": "{:%a, %d. %b  %H:%M}"
     },
     "workspaces": {
-        "all-outputs": "true",
+        "all-outputs": "true"
     },
     "mpris": {
 	"format": "  {player_icon} ",
@@ -27,12 +27,12 @@
 		"mpv": "🎵"
 	},
 	"status-icons": {
-		"paused": "▶",
+		"paused": "▶"
 	},
 
 },
     "custom/empty": {
-      "format": "     ",
+      "format": "     "
     },
 
 }
