@@ -19,3 +19,8 @@ chmod +x install.sh
 
 6. run the bash script
 ./install.sh
+
+
+
+
+PantsOS coming soon!
